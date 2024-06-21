@@ -131,7 +131,7 @@
 - **Status**: Fail
 - **Comment**: Unable to select two cities at once. After selecting an option, clicking another to add deselects the initial selection.
 
-#### BUG REPORT
+## BUG REPORT
 
 **Title**: [Two Input Fields] Summing Two Decimal Numbers Rounds the Value Down Incorrectly
 
