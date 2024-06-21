@@ -21,7 +21,7 @@ describe('Spec - Single Input Field', () => {
   });
 
   it('should display alphanumeric characters', () => {
-    const message = 'ABCDE12345.$%';
+    const message = 'ABcdE12345.$%';
 
     navigateTo.basicSimpleFormDemoPage();
     onSimpleFormDemoPage.submitSingleInputFieldFormToShowMessage(message);

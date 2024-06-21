@@ -26,5 +26,3 @@ export class SimpleFormDemoPage {
 }
 
 export const onSimpleFormDemoPage = new SimpleFormDemoPage();
-
-// TODO! A bug exist for 6.5 + 3.5. Returns 9 on the app instead of 10.
