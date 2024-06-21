@@ -153,3 +153,31 @@
 - **Single Input Field**: Implement validation for minimum and maxiumum length of character allowable
 - **Two Input Fields**: Implement validation to allow only number inputs
 - **Two Input Fields**: Update decimal arithmetic not to round down. E.g. 6.5 + 3.5 should be 10 and not 9.
+
+## Task 2: Test Automation
+
+## Setup
+
+1. Clone the repository:
+
+`git clone https://github.com/ovansa/qd_qa_response.git` or `git clone git@github.com:ovansa/qd_qa_response.git`
+
+2. Navigate into the project directory:
+
+`cd qd_qa_response`
+
+3. Install the required dependencies:
+
+`npm ci`
+
+## Running the tests
+
+### Locally
+
+1. To run the E2E tests, use the following command: `npm run test:e2e`
+
+### With Docker
+
+1. Build the Docker image: `docker build -t qd_qa_response .`
+
+2. Run the tests in a Docker container: `docker run -it qd_qa_response`
