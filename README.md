@@ -134,8 +134,11 @@
 #### BUG REPORT
 
 **Title**: [Two Input Fields] Summing Two Decimal Numbers Rounds the Value Down Incorrectly
+
 **Description**: When summing two decimal numbers, such as 6.5 and 3.5, the value returned is 9 instead of the correct total of 10. The function appears to round down the sum incorrectly.
+
 **Preconditions**: - Navigate to the Simple Form Demo page at https://demo.seleniumeasy.com/basic-first-form-demo.html.
+
 **Steps to Reproduce**:
 
 - Scroll down to the "Two Input Fields" section.
