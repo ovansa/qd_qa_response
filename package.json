@@ -1,0 +1,17 @@
+{
+  "name": "qd_qa_response",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@testing-library/cypress": "^10.0.2",
+    "cypress": "^13.12.0",
+    "typescript": "^5.4.5"
+  }
+}
