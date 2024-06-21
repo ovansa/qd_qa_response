@@ -6,7 +6,7 @@ beforeEach(() => {
 });
 
 describe('Spec - Select List Demo', () => {
-  it('should display the selected option from dropdown list', () => {
+  it('should display the selected day from dropdown list', () => {
     const option = 'Tuesday';
 
     navigateTo.selectDropdownListPage();

@@ -96,3 +96,53 @@
   - Click on "Get Total" button.
 - **Expected Result**: should display the message (NaN)
 - **Status**: Pass
+
+#### Test cases for Select List
+
+**Test case 9**
+
+- **Description**: Verify that a select value is displayed as Day Selected.
+- **Preconditions**: Application is open, and the Select List Demo page is displayed.
+- **Steps**:
+  - Select a day in the Single list demo section.
+- **Expected Result**: should display the selected day from dropdown list
+- **Status**: Pass
+
+#### Test cases for Multiple Select List
+
+**Test case 10**
+
+- **Description**: Verify that a select value is displayed.
+- **Preconditions**: Application is open, and the Select List Demo page is displayed.
+- **Steps**:
+  - Select a city in the Multiple list demo section.
+  - Click on "First Selected" button
+- **Expected Result**: should display the only selected option
+- **Status**: Pass
+
+**Test case 11**
+
+- **Description**: Verify that two selected values are displayed.
+- **Preconditions**: Application is open, and the Select List Demo page is displayed.
+- **Steps**:
+  - Select the city 'Florida' and 'Ohio' in the Multiple list demo section.
+  - Click on "First Selected" button
+- **Expected Result**: should display the only selected option
+- **Status**: Fail
+- **Comment**: Unable to select two cities at once. After selecting an option, clicking another to add deselects the initial selection.
+
+#### BUG REPORT
+
+**Title**: [Two Input Fields] Summing Two Decimal Numbers Rounds the Value Down Incorrectly
+**Description**: When summing two decimal numbers, such as 6.5 and 3.5, the value returned is 9 instead of the correct total of 10. The function appears to round down the sum incorrectly.
+**Preconditions**: - Navigate to the Simple Form Demo page at https://demo.seleniumeasy.com/basic-first-form-demo.html.
+**Steps to Reproduce**: - Scroll down to the "Two Input Fields" section. - In the "Enter a" field, enter the value 6.5. - In the "Enter b" field, enter the value 3.5. - Click on the "Get Total" button. - Observe the total displayed.
+**Observed Result**: - The total displayed is 9.
+**Expected Result**: - The total displayed should be 10.
+**Screenshot**: ![Incorrect Decimal Sum](https://github.com/ovansa/qd_qa_response/assets/7291106/06edb9a8-acb9-4acc-8bf6-ede48e228163)
+
+**IMPROVEMENTS**
+
+- **Single Input Field**: Implement validation for minimum and maxiumum length of character allowable
+- **Two Input Fields**: Implement validation to allow only number inputs
+- **Two Input Fields**: Update decimal arithmetic not to round down. E.g. 6.5 + 3.5 should be 10 and not 9.
